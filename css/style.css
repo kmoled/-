@@ -1,0 +1,69 @@
+body {
+  width: 300vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.anglesPosition {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.fa-angles-left {
+  font-size: 30px;
+}
+.fa-angles-right {
+  font-size: 30px;
+}
+.fa-angles-left:hover {
+  cursor: pointer;
+  transition: e;
+}
+.fa-angles-right:hover {
+  cursor: pointer;
+}
+
+.PgElements {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10vw;
+}
+/* 1번 */
+.fstPg {
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+}
+.homeImg {
+  width: 50vw;
+  height: 50vh;
+  background-color: black;
+}
+.homeInstruction {
+  font-size: 5vw;
+  margin-left: -100px;
+}
+/* 2번 */
+.sndPg {
+  width: 100vw;
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+}
+/* 3번 */
+.trdPg {
+  width: 100vw;
+  height: 100vh;
+  background-color: azure;
+  display: flex;
+}
